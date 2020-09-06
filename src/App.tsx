@@ -1,13 +1,18 @@
 import React from 'react';
 
 import Header from './components/Header';
+import Content from './components/Content';
+
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import './css/main.css';
 
 const App: React.FC = () => {
-  return (
-        <Header />
-  );
+    return (
+        <div>
+            <Header />
+            <Content />
+        </div>
+    );
 };
 
 export default App;

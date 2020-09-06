@@ -1,6 +1,10 @@
 .parallax-container{
+    font-family: "sans-serif";
+    text-align: "center";
 }
-.layer1{
-    margin-top: 56px;
-    height: 500px;
+.textLayer{
+    padding-top: 25%;
+    text-align: center;
+    color: white;
+    font-size: 30px;
 }

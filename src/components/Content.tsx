@@ -9,18 +9,20 @@ class Content extends React.Component{
     render(){
         return (
             <div className='parallax-container'>
-                <Parallax bgImage={require('./../images/image.jpg')} strength={500}>
-                    <div style={{ height: 800, width: '100%' }}>
+                <Parallax bgImage={require('./../images/image1.jpg')} strength={500}>
+                    <div style={{ height: '100vh', width: '100%' }}>
                         <div className="textLayer" >HTML inside the parallax</div>
                     </div>
                 </Parallax>
-                <Parallax bgImage={require('./../images/image.jpg')} strength={500}>
-                    <div style={{ height: 800, width: '100%' }}>
+                <br></br>
+                <Parallax bgImage={require('./../images/image2.jpg')} strength={500}>
+                    <div style={{ height: '100vh', width: '100%' }}>
                         <div className="textLayer" >HTML inside the parallax</div>
                     </div>
                 </Parallax>
-                <Parallax bgImage={require('./../images/image.jpg')} strength={500}>
-                    <div style={{ height: 800, width: '100%' }}>
+                <br></br>
+                <Parallax bgImage={require('./../images/image3.jpg')} strength={500}>
+                    <div style={{ height: '100vh', width: '100%' }}>
                         <div className="textLayer" >HTML inside the parallax</div>
                     </div>
                 </Parallax>

@@ -1,7 +1,26 @@
 .header-box{
     width: 100% !important;
 }
-
 .navbar {
     position: absolute;
-  }
+    background-color: rgba(0, 0, 0, 0.8)
+}
+.social{
+    color: white;
+    font-size: 30px;
+    height: 100%;
+}
+
+.form-inline{
+    height: 100%;
+}
+
+
+#fb-button{
+    margin-left:10px;
+    margin-right: 10px;
+}
+#yt-button{
+    margin-left:10px;
+    margin-right: 10px;
+}

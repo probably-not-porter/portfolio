@@ -18,7 +18,7 @@ class Content extends React.Component{
     
     render(){
         return (
-            <Carousel interval={5000} >
+            <Carousel interval={5000} pause={false} >
                 <Carousel.Item style={{ height: "100vh" }}>
                     <img
                         className="d-block w-100"

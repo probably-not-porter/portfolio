@@ -4,15 +4,15 @@ import Carousel from 'react-bootstrap/Carousel'
 
 import './../css/content.css';
 
-import Image1 from './../images/image1.png';
-import Image2 from './../images/image2.png';
-import Image3 from './../images/image3.png';
-import Image4 from './../images/image4.png';
-import Image5 from './../images/image5.png';
-import Image6 from './../images/image6.png';
-import Image7 from './../images/image7.png';
-import Image8 from './../images/image8.png';
-import Image9 from './../images/image9.png';
+import Image1 from './../images/image1-min.png';
+import Image2 from './../images/image2-min.png';
+import Image3 from './../images/image3-min.png';
+import Image4 from './../images/image4-min.png';
+import Image5 from './../images/image5-min.png';
+import Image6 from './../images/image6-min.png';
+import Image7 from './../images/image7-min.png';
+import Image8 from './../images/image8-min.png';
+import Image9 from './../images/image9-min.png';
 
 class Content extends React.Component{
     

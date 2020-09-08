@@ -17,6 +17,11 @@
     margin-right: 20px;
     margin-top:5px;
 }
+@media (max-width: 992px) {
+    .link{
+        font-size: 1.3rem;
+    }
+}
 .link:hover{
     font-size: 1.3rem;
     transition-duration: 500ms;

@@ -9,7 +9,7 @@ class Header extends React.Component{
     render(){
         return (
             <Navbar variant="dark" fixed="top" expand="lg">
-                <Navbar.Brand style={{WebkitTextStroke: "2px #bbb", color: "black", marginTop: "-15px", marginRight: "50px",fontSize: "3rem", fontFamily: "pricedown"}} href="#home">XRP</Navbar.Brand>
+                <Navbar.Brand style={{WebkitTextStroke: "2px #bbb", color: "black", marginTop: "-15px", marginLeft: "20px", marginRight: "50px",fontSize: "3rem", fontFamily: "pricedown"}} href="#home">XRP</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav" style={{minHeight: "50px"}}>
                     <Nav className="mr-auto" style={{minHeight: "50px", lineHeight: "50px", verticalAlign: 'middle', alignContent: "left"}}>

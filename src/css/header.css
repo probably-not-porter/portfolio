@@ -3,24 +3,21 @@
 }
 .navbar {
     position: absolute;
-    background-color: rgba(0, 0, 0, 0.8)
-}
-.social{
-    color: white;
-    font-size: 30px;
-    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
 }
 
 .form-inline{
     height: 100%;
 }
 
-
-#fb-button{
-    margin-left:10px;
-    margin-right: 10px;
+.link{
+    font-size: 0px;
+    transition-duration: 500ms;
+    line-height: 100%;
+    margin-right: 20px;
+    margin-top:5px;
 }
-#yt-button{
-    margin-left:10px;
-    margin-right: 10px;
+.link:hover{
+    font-size: 1.3rem;
+    transition-duration: 500ms;
 }

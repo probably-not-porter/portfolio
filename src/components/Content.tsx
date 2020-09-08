@@ -1,8 +1,4 @@
 import React from 'react';
-import { Navbar, Image, Nav, NavDropdown, Form, FormControl, Button } from 'react-bootstrap';
-
-import { Parallax, Background } from 'react-parallax';
-
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import Carousel from 'react-bootstrap/Carousel'
 

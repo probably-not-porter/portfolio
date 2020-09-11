@@ -1,11 +1,16 @@
 import React from 'react';
 
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
-import Carousel from 'react-bootstrap/Carousel'
+
+import Carousel from 'react-bootstrap/Carousel';
+import Button from 'react-bootstrap/Button';
+import Badge from 'react-bootstrap/Badge';
+
 import ProgressiveImage from "react-progressive-image-loading";
 
 import './../css/content.css';
 
+// IMAGES //
 // lazy load thumbnails
 import Image1Min from './../images/image1-min.jpg';
 import Image2Min from './../images/image2-min.jpg';
@@ -40,7 +45,7 @@ class Content extends React.Component{
                         render={(src, style) => <img alt="slide image 1" src={src} style={{ height: "100vh", objectFit: "cover" }} />}
                     />
                     <Carousel.Caption>
-                        <h3>First slide label</h3>
+                        <h3>New Slide <Badge variant="secondary">New</Badge></h3>
                         <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
                     </Carousel.Caption>
                 </Carousel.Item>
@@ -51,7 +56,8 @@ class Content extends React.Component{
                         render={(src, style) => <img alt="slide image 2" src={src} style={{ height: "100vh", objectFit: "cover" }} />}
                     />
                     <Carousel.Caption>
-                        <h3>Second slide label</h3>
+                        <h3>Discord Example Slide</h3>
+                        <Button style={{marginBottom: "20px"}} variant="light">Join our Discord</Button>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     </Carousel.Caption>
                 </Carousel.Item>
@@ -114,7 +120,9 @@ class Content extends React.Component{
                         render={(src, style) => <img alt="slide image 7" src={src} style={{ height: "100vh", objectFit: "cover" }} />}
                     />
                     <Carousel.Caption>
-                        <h3>Seventh slide label</h3>
+                        <h3>Multiple Button Slide</h3>
+                        <Button style={{marginBottom: "20px"}} variant="outline-light">Button 1</Button>{'   '}
+                        <Button style={{marginBottom: "20px"}} variant="outline-light">Button 2</Button>
                         <p>
                             Praesent commodo cursus magna, vel scelerisque nisl consectetur.
                         </p>
@@ -146,7 +154,7 @@ class Content extends React.Component{
                         </p>
                     </Carousel.Caption>
                 </Carousel.Item>
-                </Carousel>
+            </Carousel>
         );
     }
 };

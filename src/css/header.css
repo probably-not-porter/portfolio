@@ -32,6 +32,9 @@
     .link{
         font-size: 1.3rem;
     }
+    #basic-navbar-nav{
+        padding-top: 20px;
+    }
 }
 .link:hover{
     transition-duration: 500ms;

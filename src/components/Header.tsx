@@ -1,15 +1,17 @@
 import React from 'react';
-import { Navbar, Nav } from 'react-bootstrap';
+import { Navbar, Nav, Image } from 'react-bootstrap';
 import { FaComments, FaDiscord, FaFacebookF, FaYoutube, FaInstagram } from 'react-icons/fa';
 import {IconContext} from "react-icons"
 
 import './../css/header.css';
 
+
 class Header extends React.Component{
     render(){
         return (
             <Navbar variant="dark" fixed="top" expand="lg">
-                <Navbar.Brand style={{WebkitTextStroke: "2px #bbb", color: "black", marginTop: "-15px", marginLeft: "20px", marginRight: "50px",fontSize: "3rem", fontFamily: "pricedown"}} href="#home">XRP</Navbar.Brand>
+                <img className='header-logo' alt='test' src={require('./../images/vrp_logo_test.png')}></img>
+                <Navbar.Brand style={{WebkitTextStroke: "2px #bbb", color: "black", marginTop: "-15px", marginLeft: "20px", marginRight: "50px",fontSize: "3rem", fontFamily: "pricedown"}} href="#home"></Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav" style={{minHeight: "50px"}}>
                     <Nav className="mr-auto" style={{minHeight: "50px", lineHeight: "50px", verticalAlign: 'middle', alignContent: "left"}}>

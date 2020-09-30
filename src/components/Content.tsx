@@ -42,7 +42,7 @@ class Content extends React.Component{
                     <ProgressiveImage
                         preview={Image1Min}
                         src={Image1}
-                        render={(src, style) => <img alt="slide image 1" src={src} style={{ height: "100vh", objectFit: "cover" }} />}
+                        render={(src, style) => <img alt="slide1" src={src} style={{ height: "100vh", objectFit: "cover" }} />}
                     />
                     <Carousel.Caption>
                         <h3>New Slide <Badge variant="secondary">New</Badge></h3>
@@ -53,7 +53,7 @@ class Content extends React.Component{
                     <ProgressiveImage
                         preview={Image2Min}
                         src={Image2}
-                        render={(src, style) => <img alt="slide image 2" src={src} style={{ height: "100vh", objectFit: "cover" }} />}
+                        render={(src, style) => <img alt="slide2" src={src} style={{ height: "100vh", objectFit: "cover" }} />}
                     />
                     <Carousel.Caption>
                         <h3>Discord Example Slide</h3>
@@ -65,7 +65,7 @@ class Content extends React.Component{
                     <ProgressiveImage
                         preview={Image3Min}
                         src={Image3}
-                        render={(src, style) => <img alt="slide image 3" src={src} style={{ height: "100vh", objectFit: "cover" }} />}
+                        render={(src, style) => <img alt="slide3" src={src} style={{ height: "100vh", objectFit: "cover" }} />}
                     />
                     <Carousel.Caption>
                         <h3>Third slide label</h3>
@@ -78,7 +78,7 @@ class Content extends React.Component{
                     <ProgressiveImage
                         preview={Image4Min}
                         src={Image4}
-                        render={(src, style) => <img alt="slide image 4" src={src} style={{ height: "100vh", objectFit: "cover" }} />}
+                        render={(src, style) => <img alt="slide4" src={src} style={{ height: "100vh", objectFit: "cover" }} />}
                     />
                     <Carousel.Caption>
                         <h3>Fourth slide label</h3>
@@ -91,7 +91,7 @@ class Content extends React.Component{
                     <ProgressiveImage
                         preview={Image5Min}
                         src={Image5}
-                        render={(src, style) => <img alt="slide image 5" src={src} style={{ height: "100vh", objectFit: "cover" }} />}
+                        render={(src, style) => <img alt="slide5" src={src} style={{ height: "100vh", objectFit: "cover" }} />}
                     />
                     <Carousel.Caption>
                         <h3>Fifth slide label</h3>
@@ -104,7 +104,7 @@ class Content extends React.Component{
                     <ProgressiveImage
                         preview={Image6Min}
                         src={Image6}
-                        render={(src, style) => <img alt="slide image 6" src={src} style={{ height: "100vh", objectFit: "cover" }} />}
+                        render={(src, style) => <img alt="slide6" src={src} style={{ height: "100vh", objectFit: "cover" }} />}
                     />
                     <Carousel.Caption>
                         <h3>Sixth slide label</h3>
@@ -117,7 +117,7 @@ class Content extends React.Component{
                     <ProgressiveImage
                         preview={Image7Min}
                         src={Image7}
-                        render={(src, style) => <img alt="slide image 7" src={src} style={{ height: "100vh", objectFit: "cover" }} />}
+                        render={(src, style) => <img alt="slide7" src={src} style={{ height: "100vh", objectFit: "cover" }} />}
                     />
                     <Carousel.Caption>
                         <h3>Multiple Button Slide</h3>
@@ -132,7 +132,7 @@ class Content extends React.Component{
                     <ProgressiveImage
                         preview={Image8Min}
                         src={Image8}
-                        render={(src, style) => <img alt="slide image 8" src={src} style={{ height: "100vh", objectFit: "cover" }} />}
+                        render={(src, style) => <img alt="slide8" src={src} style={{ height: "100vh", objectFit: "cover" }} />}
                     />
                     <Carousel.Caption>
                         <h3>Eighth slide label</h3>
@@ -145,7 +145,7 @@ class Content extends React.Component{
                     <ProgressiveImage
                         preview={Image9Min}
                         src={Image9}
-                        render={(src, style) => <img alt="slide image 9" src={src} style={{ height: "100vh", objectFit: "cover" }} />}
+                        render={(src, style) => <img alt="slide9" src={src} style={{ height: "100vh", objectFit: "cover" }} />}
                     />
                     <Carousel.Caption>
                         <h3>Ninth lide label</h3>

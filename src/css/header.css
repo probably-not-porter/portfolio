@@ -13,7 +13,7 @@
 }
 .navbar {
     position: fixed;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .form-inline{
@@ -21,11 +21,12 @@
 }
 
 .link{
-    font-size: 0px;
+    font-size: 0rem;
     transition-duration: 500ms;
     line-height: 100%;
     margin-right: 20px;
     margin-top:5px;
+    color: #ec6537 !important;
 }
 @media (max-width: 992px) {
     .link{
@@ -33,6 +34,9 @@
     }
 }
 .link:hover{
-    font-size: 1.3rem;
     transition-duration: 500ms;
+    color: #ea33d5 !important;
+}
+.header-logo{
+    height: 80px;
 }

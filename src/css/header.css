@@ -23,8 +23,6 @@
 .link{
     font-size: 0rem;
     transition-duration: 500ms;
-    line-height: 100%;
-    margin-right: 20px;
     margin-top:5px;
     color: #ec6537 !important;
 }

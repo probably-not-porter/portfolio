@@ -23,6 +23,9 @@ import Image8Min from './../images/image8-min.jpg';
 import Image9Min from './../images/image9-min.jpg';
 
 // full sized images (compressed)
+
+// gta
+
 import Image1 from './../images/image1.png';
 import Image2 from './../images/image2.png';
 import Image3 from './../images/image3.png';
@@ -33,127 +36,99 @@ import Image7 from './../images/image7.png';
 import Image8 from './../images/image8.png';
 import Image9 from './../images/image9.png';
 
+//minecraft
+
+import Image10 from './../images/image10.png';
+import Image11 from './../images/image11.png';
+import Image12 from './../images/image12.png';
+
 class Content extends React.Component{
     
     render(){
         return (
             <Carousel interval={5000} pause={false} >
+
                 <Carousel.Item style={{ height: "100vh" }}>
                     <ProgressiveImage
-                        preview={Image1Min}
-                        src={Image1}
+                        preview={Image8Min}
+                        src={Image8}
                         render={(src, style) => <img alt="slide1" src={src} style={{ height: "100vh", objectFit: "cover" }} />}
                     />
                     <Carousel.Caption>
-                        <h3>New Slide <Badge variant="secondary">New</Badge></h3>
+                        <h3>GTA V RP Server <Badge variant="secondary">New</Badge></h3>
                         <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
                     </Carousel.Caption>
                 </Carousel.Item>
+
                 <Carousel.Item style={{ height: "100vh"}}>
                     <ProgressiveImage
-                        preview={Image2Min}
-                        src={Image2}
+                        preview={Image10}
+                        src={Image10}
                         render={(src, style) => <img alt="slide2" src={src} style={{ height: "100vh", objectFit: "cover" }} />}
                     />
                     <Carousel.Caption>
-                        <h3>Discord Example Slide</h3>
-                        <Button style={{marginBottom: "20px"}} variant="light">Join our Discord</Button>
+                        <h3>Minecraft Server <Badge variant="secondary">New</Badge></h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     </Carousel.Caption>
                 </Carousel.Item>
-                <Carousel.Item style={{ height: "100vh"}}>
-                    <ProgressiveImage
-                        preview={Image3Min}
-                        src={Image3}
-                        render={(src, style) => <img alt="slide3" src={src} style={{ height: "100vh", objectFit: "cover" }} />}
-                    />
-                    <Carousel.Caption>
-                        <h3>Third slide label</h3>
-                        <p>
-                            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-                        </p>
-                    </Carousel.Caption>
-                </Carousel.Item>
-                <Carousel.Item style={{ height: "100vh"}}>
-                    <ProgressiveImage
-                        preview={Image4Min}
-                        src={Image4}
-                        render={(src, style) => <img alt="slide4" src={src} style={{ height: "100vh", objectFit: "cover" }} />}
-                    />
-                    <Carousel.Caption>
-                        <h3>Fourth slide label</h3>
-                        <p>
-                            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-                        </p>
-                    </Carousel.Caption>
-                </Carousel.Item>
-                <Carousel.Item style={{ height: "100vh"}}>
-                    <ProgressiveImage
-                        preview={Image5Min}
-                        src={Image5}
-                        render={(src, style) => <img alt="slide5" src={src} style={{ height: "100vh", objectFit: "cover" }} />}
-                    />
-                    <Carousel.Caption>
-                        <h3>Fifth slide label</h3>
-                        <p>
-                            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-                        </p>
-                    </Carousel.Caption>
-                </Carousel.Item>
-                <Carousel.Item style={{ height: "100vh"}}>
-                    <ProgressiveImage
-                        preview={Image6Min}
-                        src={Image6}
-                        render={(src, style) => <img alt="slide6" src={src} style={{ height: "100vh", objectFit: "cover" }} />}
-                    />
-                    <Carousel.Caption>
-                        <h3>Sixth slide label</h3>
-                        <p>
-                            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-                        </p>
-                    </Carousel.Caption>
-                </Carousel.Item>
+
                 <Carousel.Item style={{ height: "100vh"}}>
                     <ProgressiveImage
                         preview={Image7Min}
                         src={Image7}
-                        render={(src, style) => <img alt="slide7" src={src} style={{ height: "100vh", objectFit: "cover" }} />}
+                        render={(src, style) => <img alt="slide3" src={src} style={{ height: "100vh", objectFit: "cover" }} />}
                     />
                     <Carousel.Caption>
-                        <h3>Multiple Button Slide</h3>
-                        <Button style={{marginBottom: "20px"}} variant="outline-light">Button 1</Button>{'   '}
-                        <Button style={{marginBottom: "20px"}} variant="outline-light">Button 2</Button>
+                        <h3>Active Discord Community</h3>
+                        <Button style={{marginBottom: "20px"}} variant="light">Join our Discord</Button>
                         <p>
                             Praesent commodo cursus magna, vel scelerisque nisl consectetur.
                         </p>
                     </Carousel.Caption>
                 </Carousel.Item>
+
                 <Carousel.Item style={{ height: "100vh"}}>
                     <ProgressiveImage
-                        preview={Image8Min}
-                        src={Image8}
-                        render={(src, style) => <img alt="slide8" src={src} style={{ height: "100vh", objectFit: "cover" }} />}
+                        preview={Image11}
+                        src={Image11}
+                        render={(src, style) => <img alt="slide4" src={src} style={{ height: "100vh", objectFit: "cover" }} />}
                     />
                     <Carousel.Caption>
-                        <h3>Eighth slide label</h3>
+                        <h3>GTA RP Forum</h3>
                         <p>
                             Praesent commodo cursus magna, vel scelerisque nisl consectetur.
                         </p>
                     </Carousel.Caption>
                 </Carousel.Item>
+
                 <Carousel.Item style={{ height: "100vh"}}>
                     <ProgressiveImage
-                        preview={Image9Min}
-                        src={Image9}
-                        render={(src, style) => <img alt="slide9" src={src} style={{ height: "100vh", objectFit: "cover" }} />}
+                        preview={Image3Min}
+                        src={Image3}
+                        render={(src, style) => <img alt="slide5" src={src} style={{ height: "100vh", objectFit: "cover" }} />}
                     />
                     <Carousel.Caption>
-                        <h3>Ninth lide label</h3>
+                        <h3>Free to play</h3>
                         <p>
                             Praesent commodo cursus magna, vel scelerisque nisl consectetur.
                         </p>
                     </Carousel.Caption>
                 </Carousel.Item>
+
+                <Carousel.Item style={{ height: "100vh"}}>
+                    <ProgressiveImage
+                        preview={Image12}
+                        src={Image12}
+                        render={(src, style) => <img alt="slide6" src={src} style={{ height: "100vh", objectFit: "cover" }} />}
+                    />
+                    <Carousel.Caption>
+                        <h3>Donate to our Project</h3>
+                        <p>
+                            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+                        </p>
+                    </Carousel.Caption>
+                </Carousel.Item>
+
             </Carousel>
         );
     }

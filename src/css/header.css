@@ -21,14 +21,19 @@
 }
 
 .link{
-    font-size: 0rem;
+    font-size: 1rem;
     transition-duration: 500ms;
-    margin-top:5px;
     color: #ec6537 !important;
+}
+@media (min-width: 993px) {
+    #basic-navbar-nav{
+        height: 20px;
+    }
 }
 @media (max-width: 992px) {
     .link{
         font-size: 1.3rem;
+        margin-left: 30px;
     }
     #basic-navbar-nav{
         padding-top: 20px;

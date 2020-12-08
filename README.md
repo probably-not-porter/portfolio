@@ -1,5 +1,5 @@
-# XRP Website
-Front page of the web presence for the XRP GTAV server.
+# XGC Gaming Community
+Landing page for XGC
 
 ## Development Details
 * Images should be used in their full, high-def form, along with a 10% size version for use with lazy-loading.

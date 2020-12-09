@@ -68,7 +68,7 @@ class Content extends React.Component{
                     />
                     <Carousel.Caption>
                         <h3>Minecraft Server <Badge variant="secondary">New</Badge></h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <p><span data-playercounter-ip="51.81.80.168:25565">0</span> player(s) currently online!</p>
                     </Carousel.Caption>
                 </Carousel.Item>
 

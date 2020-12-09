@@ -1,0 +1,26 @@
+.credits{
+    position: absolute;
+    float: left;
+    bottom: 10px;
+    right: 25px;
+    width: 100%;
+    text-align: right;
+    color: rgba(255,255,255,0.4);
+    z-index: 10;
+    font-size: 12px;
+}
+.credits a{
+    color: rgba(150,150,255,0.4);
+}
+.credits a:hover{
+    color: rgba(255,255,255,0.6);
+}
+
+@media (max-width: 992px) {
+    .credits{
+        text-align: center;
+        font-size: 10px;
+        bottom: 3px;
+        right: auto;
+    }
+}

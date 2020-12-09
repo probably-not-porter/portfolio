@@ -3,6 +3,7 @@ import React from 'react';
 import Header from './components/Header';
 import Content from './components/Content';
 import Notifications from './components/Notifications';
+import Credits from './components/Credits';
 
 import MinecraftMap from './components/MinecraftMap';
 
@@ -49,6 +50,7 @@ const App: React.FC = () => {
                     </Route>
                 </Switch>
             </Router>
+            <Credits />
         </div>
     );
 };
